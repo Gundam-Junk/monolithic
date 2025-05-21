@@ -1,4 +1,4 @@
-package com.gundam.junk.domain.auth.infrastructure.model;
+package com.gundam.junk.domain.auth.domain.model;
 
 public record UserInfo(
     Long id,
@@ -7,6 +7,7 @@ public record UserInfo(
     String username,
     String userRole
 ) {
+
     public static UserInfo of(
         Long id,
         String loginId,
