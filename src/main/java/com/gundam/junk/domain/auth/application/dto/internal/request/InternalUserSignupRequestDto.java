@@ -1,4 +1,4 @@
-package com.gundam.junk.domain.user.application.dto.interanl.request;
+package com.gundam.junk.domain.auth.application.dto.internal.request;
 
 import lombok.Getter;
 
