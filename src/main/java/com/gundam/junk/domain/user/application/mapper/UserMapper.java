@@ -17,7 +17,9 @@ public class UserMapper {
 
     public static InternalUserSignupResponseDto internalEntityToSignupRes(User user) {
         return InternalUserSignupResponseDto.of(
+            user.getId(),
             user.getLoginId(),
+            user.getPassword(),
             user.getUsername(),
             user.getUserRole()
         );
